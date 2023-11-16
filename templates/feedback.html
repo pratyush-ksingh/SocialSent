@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+        <style type="text/css">
+            * {
+              box-sizing: border-box;
+              margin:40px;
+            }
+            button[type=submit] {
+              background-color: #4CAF50;
+              color: white;
+              width:100%;
+              padding: 12px 20px;
+              margin: 8px 0;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+              float: right;
+              font-size: 16px;
+              font-weight: bold;
+            }
+
+            button[type=submit]:hover {
+              background-color: #45a049;
+            }
+            textarea {
+              width: 100%;
+              padding: 12px 20px;
+              margin: 8px 0;
+              box-sizing: border-box;
+              border: 2px solid blue;
+              border-radius: 4px;
+            }
+
+        </style>
+        <title>Feedback</title>
+    </head>
+    <body>
+
+        <div class="container">
+            <form method="POST">
+                <textarea name="contents"></textarea>
+                <button type="submit">Submit</button>
+            </form>            
+        </div>
+
+    </body>
+</html>
